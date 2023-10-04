@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="icon" type="images/x-icon" href="./images/favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">Technologies</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My projects</a></li>
+                <li class="nav__item"><a href="#contacts" class="nav__link">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Hanna Huzava</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Full-Stack developer</p>
+        <img src="./images/myphoto.jpg" alt="my photo" class="intro__img">
+    </section>
+
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <div class="wrapper">
+            <h2 class="section__title section__title--services">Technologies</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>Javascript</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>React</li>
+                        <li>TypeScript</li>
+                    </ul>
+                </div> <!-- / service -->
+
+                <div class="service">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>PostgreSQL</li>
+                        <li>Express.js</li>
+
+                    </ul>
+                </div> <!-- / service -->
+
+            </div> <!-- / services -->
+
+            <a href="./images/CV_Hanna_Huzava.pdf" class="btn" download>Download my CV</a>
+            <a href="./images/CV_Hanna_Huzava.pdf" class="btn" target="_blank">Open my CV</a>
+        </div>
+    </section>
+
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Developer based out of Barcelona</p>
+
+        <div class="about-me__body">
+            <p>I am a technologically-focused individual who has successfully transitioned careers and possesses a
+                strong aptitude for problem-solving.
+                I have recently completed the Migracode Web Development Bootcamp in Barcelona
+                and also hold a certification from The Rolling Scopes School.</p>
+            <p>Currently, I am actively seeking a professional setting
+                where I can effectively apply my acquired skills in a mutually beneficial manner for all involved
+                parties.</p>
+        </div>
+
+        <img src="./images/aboutme.jpg" alt="My photo" class="about-me__img">
+
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <div class="wrapper">
+            <h2 class="section__title">My projects</h2>
+            <p class="section__subtitle"></p>
+
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="https://rolling-scopes-school.github.io/anutaguzova-JSFE2021Q1/english-for-kids/#"
+                    target="_blank" class="portfolio__item">
+                    <img src="images/englishforkids.png" alt="english-for-kids" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 02 -->
+                <a href="https://planning-poker-asyalu-yuliyabrui-anutaguzova.netlify.app/" target="_blank"
+                    class="portfolio__item">
+                    <img src="images/poker_planning.png" alt="poker_planning" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 03 -->
+                <a href="https://rolling-scopes-school.github.io/anutaguzova-JSFE2021Q1/online-zoo/pages/main/main.html"
+                    target="_blank" class="portfolio__item">
+                    <img src="images/onlinezoo.png" alt="online-zoo" class="portfolio__img">
+                </a>
+                <!-- Portfolio item 04 -->
+                <a href="https://rolling-scopes-school.github.io/anutaguzova-JSFE2021Q1/virtual-piano/index.html"
+                    target="_blank" class="portfolio__item">
+                    <img src="images/virtualpiano.png" alt="virtual-piano" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 05 -->
+                <a href="https://anutaguzova.github.io/shelter/pages/main/index.html" target="_blank"
+                    class="portfolio__item">
+                    <img src="images/shelter.png" alt="shelter" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 06 -->
+                <a href="https://rolling-scopes-school.github.io/anutaguzova-JSFE2021Q1/wildlife/" target="_blank"
+                    class="portfolio__item">
+                    <img src="images/wildlife.png" alt="wildlife" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 07 -->
+                <a href="https://rolling-scopes-school.github.io/anutaguzova-JSFE2021Q1/photo-filter/index.html"
+                    target="_blank" class="portfolio__item">
+                    <img src="images/photofilter.png" alt="photo-filter" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 08 -->
+                <a href="https://anutaguzova.github.io/book-shop/index.html" target="_blank" class="portfolio__item">
+                    <img src="images/book_shop.png" alt="book-shop" class="portfolio__img">
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer" id="contacts">
+        <div class="wrapper">
+            <a href="mailto:guzovaann@gmail.com" class="footer__link" target="_blank">guzovaann@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link"
+                        href="https://www.linkedin.com/in/huzavahanna/" target="_blank"><i class="fab fa-linkedin"
+                            style="color: #3b5a46;"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://github.com/anutaguzova"
+                        target="_blank"><i class="fab fa-github" style="color: #3b5a46;"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
